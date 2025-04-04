@@ -216,6 +216,8 @@ bindsym $mod+Shift+s scratchpad show
 exec --no-startup-id xrandr --dpi 96 # monitor dpi
 exec --no-startup-id bash /home/varad/.config/i3/setup.sh
 
+mouse_warping none # when changing monitors, mouse doesn't warp to the new monitor
+
 # not working (want alternating (fibonacci-esque) layout):
 # exec --no-startup-id /home/varad/Desktop/i3-alternating-layout/alternating_layouts.py
 
