@@ -222,12 +222,11 @@ mouse_warping none # when changing monitors, mouse doesn't warp to the new monit
 bindsym $mod+Tab workspace back_and_forth
 
 # define workspace groups
-# ctrl 1: 1 and 2
-# ctrl 2: 3 and 4
-# ctrl 3: 5 and 6
 bindsym $mod+Ctrl+1 workspace 1; workspace 2
 bindsym $mod+Ctrl+2 workspace 3; workspace 4
 bindsym $mod+Ctrl+3 workspace 5; workspace 6
+bindsym $mod+Ctrl+4 workspace 7; workspace 8
+bindsym $mod+Ctrl+5 workspace 9; workspace 10
 
 # not working (want alternating (fibonacci-esque) layout):
 # exec --no-startup-id /home/varad/Desktop/i3-alternating-layout/alternating_layouts.py
