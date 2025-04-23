@@ -228,9 +228,6 @@ bindsym $mod+Ctrl+3 workspace 5; workspace 6
 bindsym $mod+Ctrl+4 workspace 7; workspace 8
 bindsym $mod+Ctrl+5 workspace 9; workspace 10
 
-# pause media on bluetooth disconnect
-exec --no-startup-id /home/varad/.config/i3/bt_media_watcher.sh
-
 # not working (want alternating (fibonacci-esque) layout):
 # exec --no-startup-id /home/varad/Desktop/i3-alternating-layout/alternating_layouts.py
 
