@@ -228,6 +228,9 @@ bindsym $mod+Ctrl+3 workspace 5; workspace 6
 bindsym $mod+Ctrl+4 workspace 7; workspace 8
 bindsym $mod+Ctrl+5 workspace 9; workspace 10
 
+# move entire workspace to monitor
+bindsym $mod+Ctrl+x move workspace to output next
+
 # not working (want alternating (fibonacci-esque) layout):
 # exec --no-startup-id /home/varad/Desktop/i3-alternating-layout/alternating_layouts.py
 
