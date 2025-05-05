@@ -235,6 +235,9 @@ bindsym $mod+Ctrl+5 workspace 9; workspace 10
 # move entire workspace to monitor
 bindsym $mod+Ctrl+x move workspace to output next
 
+# open qalc - cli calculator
+bindsym $mod+q exec gnome-terminal -e "qalc"
+
 # not working (want alternating (fibonacci-esque) layout):
 # exec --no-startup-id /home/varad/Desktop/i3-alternating-layout/alternating_layouts.py
 
