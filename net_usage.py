@@ -2,7 +2,6 @@
 
 import json
 import sys
-import time
 
 iface = "wlo1"
 
@@ -58,5 +57,3 @@ while True:
         print(line, end="")
 
     sys.stdout.flush()
-
-    time.sleep(1)  # Update every second
